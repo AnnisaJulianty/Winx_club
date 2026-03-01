@@ -183,3 +183,6 @@ CREATE TABLE `settings` (
 --
 INSERT INTO `settings` (`setting_key`, `setting_value`) VALUES
 ('recruitment_open', 'false');
+
+ALTER TABLE galeri 
+ADD COLUMN tanggal_upload DATETIME DEFAULT CURRENT_TIMESTAMP;
