@@ -42,6 +42,7 @@ if (session_status() === PHP_SESSION_NONE) {
             <li><a href="pendaftaran.php">Join Ekskul</a></li>
             <li><a href="registrasi_akun.php">Registrasi Akun</a></li>
             <li><a href="login.php">Login</a></li>
+            <li><a href="event.php">Event</a></li>
         <?php endif; ?>
     </ul>
 </nav>
